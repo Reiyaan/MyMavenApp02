@@ -42,7 +42,7 @@ pipline{
            
            steps {
            
-             sh 'mvn exec:java -Dexec.mainClass="com.example.App"
+             sh 'java -jar target/MyMavenApp02-1.0-SNAPSHOT.jar'
            }
          } 
     }      
