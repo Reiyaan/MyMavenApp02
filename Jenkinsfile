@@ -13,7 +13,7 @@ pipline{
            
            steps {
            
-             git branch: 'main' , url: "https://github.com/Reiyaan/MyMavenApp02.git"
+             git branch: 'origin' , url: "https://github.com/Reiyaan/MyMavenApp02.git"
            
            }
          }
